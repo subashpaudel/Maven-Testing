@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="76925" started-at="2020-11-25T07:07:33Z" finished-at="2020-11-25T07:08:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="76925" started-at="2020-11-25T07:07:33Z" finished-at="2020-11-25T07:08:50Z">
+      <class name="com.subash.testing.TestLogin">
+        <test-method status="PASS" signature="register()[pri:0, instance:com.subash.testing.TestLogin@3abbfa04]" name="register" is-config="true" duration-ms="22170" started-at="2020-11-25T12:52:33Z" finished-at="2020-11-25T12:52:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.subash.testing.TestLogin@3abbfa04]" name="login" duration-ms="22327" started-at="2020-11-25T12:52:55Z" finished-at="2020-11-25T12:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.subash.testing.TestLogin@3abbfa04]" name="finish" is-config="true" duration-ms="0" started-at="2020-11-25T12:53:17Z" finished-at="2020-11-25T12:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method status="PASS" signature="register()[pri:0, instance:com.subash.testing.TestLogin@3abbfa04]" name="register" is-config="true" duration-ms="11038" started-at="2020-11-25T12:53:17Z" finished-at="2020-11-25T12:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="contact()[pri:0, instance:com.subash.testing.TestLogin@3abbfa04]" name="contact" duration-ms="21364" started-at="2020-11-25T12:53:28Z" finished-at="2020-11-25T12:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.subash.testing.TestLogin@3abbfa04]" name="finish" is-config="true" duration-ms="0" started-at="2020-11-25T12:53:50Z" finished-at="2020-11-25T12:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.subash.testing.TestLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
