@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -19,8 +19,9 @@ public class Registration {
 	
 	public void register() {
 		
-		System.setProperty("webdriver.chrome.driver",".\\drivers\\chromedriver.exe");
-		driver = new ChromeDriver();
+		//System.setProperty("webdriver.chrome.driver",".\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.gecko.driver",".\\drivers\\geckodriver.exe");
+		driver = new FirefoxDriver();
 		driver.get("https://freecrm.com/");
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
@@ -31,7 +32,7 @@ public class Registration {
 		
 	}
 	
-	@Test
+	/*@Test
 	
 	public void registration() throws InterruptedException {
 		
@@ -61,7 +62,7 @@ public class Registration {
 		
 		
 		
-	}
+	}*/
 	
 	@AfterClass
 	

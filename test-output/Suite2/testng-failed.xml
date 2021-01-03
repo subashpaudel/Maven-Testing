@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite2]" parallel="none">
+  <test name="Test2(failed)" parallel="methods">
+    <classes>
+      <class name="com.subash.testing.parallel_testing">
+        <methods>
+          <include name="ChromeTest"/>
+        </methods>
+      </class> <!-- com.subash.testing.parallel_testing -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite2] -->

@@ -3,19 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.subash.testing.Login">
-        <methods>
-          <include name="contact"/>
-          <include name="register"/>
-          <include name="login"/>
-        </methods>
-      </class> <!-- com.subash.testing.Login -->
-      <class name="com.subash.testing.Registration">
+      <class name="com.subash.testing.TestLogin">
         <methods>
           <include name="register"/>
-          <include name="registration"/>
         </methods>
-      </class> <!-- com.subash.testing.Registration -->
+      </class> <!-- com.subash.testing.TestLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

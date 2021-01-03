@@ -1,36 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="51202" started-at="2020-11-25T16:15:19Z" finished-at="2020-11-25T16:16:10Z">
+  <suite name="Command line suite" duration-ms="32480" started-at="2021-01-03T11:57:17Z" finished-at="2021-01-03T11:57:49Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="51202" started-at="2020-11-25T16:15:19Z" finished-at="2020-11-25T16:16:10Z">
+    <test name="Command line test" duration-ms="32480" started-at="2021-01-03T11:57:17Z" finished-at="2021-01-03T11:57:49Z">
       <class name="com.subash.testing.TestLogin">
-        <test-method status="PASS" signature="register()[pri:0, instance:com.subash.testing.TestLogin@6276ae34]" name="register" is-config="true" duration-ms="10435" started-at="2020-11-25T22:00:19Z" finished-at="2020-11-25T22:00:29Z">
+        <test-method status="PASS" signature="register()[pri:0, instance:com.subash.testing.TestLogin@13c78c0b]" name="register" duration-ms="32456" started-at="2021-01-03T17:42:17Z" finished-at="2021-01-03T17:42:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.subash.testing.TestLogin@6276ae34]" name="login" duration-ms="16335" started-at="2020-11-25T22:00:29Z" finished-at="2020-11-25T22:00:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="finish()[pri:0, instance:com.subash.testing.TestLogin@6276ae34]" name="finish" is-config="true" duration-ms="0" started-at="2020-11-25T22:00:46Z" finished-at="2020-11-25T22:00:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finish -->
-        <test-method status="PASS" signature="register()[pri:0, instance:com.subash.testing.TestLogin@6276ae34]" name="register" is-config="true" duration-ms="8300" started-at="2020-11-25T22:00:46Z" finished-at="2020-11-25T22:00:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- register -->
-        <test-method status="PASS" signature="contact()[pri:0, instance:com.subash.testing.TestLogin@6276ae34]" name="contact" duration-ms="16112" started-at="2020-11-25T22:00:54Z" finished-at="2020-11-25T22:01:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contact -->
-        <test-method status="PASS" signature="finish()[pri:0, instance:com.subash.testing.TestLogin@6276ae34]" name="finish" is-config="true" duration-ms="0" started-at="2020-11-25T22:01:10Z" finished-at="2020-11-25T22:01:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finish -->
       </class> <!-- com.subash.testing.TestLogin -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->
