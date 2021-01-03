@@ -23,8 +23,10 @@ public static WebDriver driver = null;
 	@Test	
 	public void register() throws InterruptedException {
 		
-		 System.setProperty("webdriver.gecko.driver",".\\drivers\\geckodriver.exe");
-		   driver = new FirefoxDriver();   
+		 /*System.setProperty("webdriver.gecko.driver",".\\drivers\\geckodriver.exe");
+		   driver = new FirefoxDriver();   */
+		 System.setProperty("webdriver.chrome.driver",".\\drivers\\chromedriver.exe");
+		 driver = new ChromeDriver();
 		   
 		   driver.get("https://uat-viber.f1soft.com/business/auth/login");
 			driver.manage().window().maximize();
