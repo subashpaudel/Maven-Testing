@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="TestSuite" time="32.459" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="TestSuite" time="55.898" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\subpa\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf198961910764186090.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\subpa\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf646683603564370485.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_251/bin/server;C:/Program Files/Java/jre1.8.0_251/bin;C:/Program Files/Java/jre1.8.0_251/lib/amd64;D:\development\android-sdk\tools\bin;D:\development\android-sdk\tools;D:\development\android-sdk\platform-tools;C:\Program Files\Java\jre1.8.0_251\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\apache-maven-3.6.3\bin;C:\Program Files\OpenSSL-Win64\bin;c:\jruby-9.2.13.0\bin;C:\Users\subpa\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\subpa\AppData\Local\Programs\Python\Python37\;C:\Users\subpa\AppData\Local\Microsoft\WindowsApps;C:\Users\subpa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\subpa\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Program Files (x86)\Nmap;D:\development\flutter\bin;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;C:\Users\subpa\Downloads\eclipse-jee-photon-R-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,5 +61,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.subash.testing.TestLogin" name="register" time="32.459"/>
+  <testcase classname="com.subash.testing.TestLogin" name="register" time="55.898"/>
 </testsuite>

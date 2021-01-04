@@ -5,7 +5,7 @@
     <classes>
       <class name="com.subash.testing.parallel_testing">
         <methods>
-          <include name="ChromeTest"/>
+          <include name="FirefoxTest"/>
         </methods>
       </class> <!-- com.subash.testing.parallel_testing -->
     </classes>

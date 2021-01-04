@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="32480" started-at="2021-01-03T11:57:17Z" finished-at="2021-01-03T11:57:49Z">
+  <suite name="Command line suite" duration-ms="55913" started-at="2021-01-04T15:47:42Z" finished-at="2021-01-04T15:48:38Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="32480" started-at="2021-01-03T11:57:17Z" finished-at="2021-01-03T11:57:49Z">
+    <test name="Command line test" duration-ms="55913" started-at="2021-01-04T15:47:42Z" finished-at="2021-01-04T15:48:38Z">
       <class name="com.subash.testing.TestLogin">
-        <test-method status="PASS" signature="register()[pri:0, instance:com.subash.testing.TestLogin@13c78c0b]" name="register" duration-ms="32456" started-at="2021-01-03T17:42:17Z" finished-at="2021-01-03T17:42:49Z">
+        <test-method status="PASS" signature="register()[pri:0, instance:com.subash.testing.TestLogin@13c78c0b]" name="register" duration-ms="55895" started-at="2021-01-04T21:32:42Z" finished-at="2021-01-04T21:33:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->

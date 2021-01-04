@@ -2,6 +2,7 @@ package com.subash.testing;
 
 
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -35,17 +36,57 @@ public static WebDriver driver = null;
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			Thread.sleep(3000);
 			
-			driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("subashf1soft@gmail.com");
+			driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("sanjip.thapa@f1soft.com");
 			Thread.sleep(3000);
-			driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("Ratnamaya1@");
+			driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("Test@123");
 			Thread.sleep(2000);
 			driver.findElement(By.xpath("//button[normalize-space()='Login']")).click();
 			
 			Thread.sleep(5000);
-			driver.findElement(By.xpath(" //img[@src='/business/images/default-user.png']")).click();
+			/*driver.findElement(By.xpath(" //img[@src='/business/images/default-user.png']")).click();
 			Thread.sleep(2000);
 			driver.findElement(By.xpath("//a[normalize-space()='Logout']")).click();
-			Thread.sleep(5000);
+			Thread.sleep(5000);*/
+			driver.findElement(By.xpath("//span[normalize-space()='Promotion']")).click();
+			Thread.sleep(2000);
+			driver.findElement(By.xpath("//span[normalize-space()='Create Promotion']")).click();
+			Thread.sleep(3000);
+			driver.findElement(By.xpath("//input[@id='create_promotion_form_title']")).sendKeys("Automation");
+			driver.findElement(By.xpath("//input[@id='create_promotion_form_channels_1']")).click();
+			
+			/*List<WebElement> list = driver.findElements(By.xpath("//span[normalize-space()='Select Message Template']")).click();*/
+			/*System.out.println(list.size());*/
+			driver.findElement(By.xpath("//span[normalize-space()='Select Message Template']")).click();
+			
+			Thread.sleep(2000);
+			List<WebElement> list = driver.findElements(By.xpath("//ul[@class='chosen-results']//li"));
+			System.out.println(list.size());
+			
+			for(int i=0;i<list.size();i++) {
+				System.out.println(list.get(i).getText());
+				if(list.get(i).getText().contains("This is sms fail over test")) {
+					list.get(i).click();
+					break;
+				}
+			}
+				Thread.sleep(3000);
+				driver.findElement(By.xpath("//input[@id='create_promotion_form_csvFile']")).sendKeys("C:\\Users\\subpa\\Downloads\\my number.csv");
+				Thread.sleep(3000);
+			/*driver.findElement(By.xpath("//input[@class='chosen-search-input']")).sendKeys("This is sms fail over test");
+			Thread.sleep(3000);
+			driver.findElement(By.xpath("//li[normalize-space()='This is sms fail over test']")).click();*/
+				driver.findElement(By.xpath("//input[@id='create_promotion_form_deliverBefore']")).click();
+				/*driver.findElement(By.xpath("//td[@class='today active start-date active end-date available']")).click();*/
+				Thread.sleep(3000);
+				driver.findElement(By.xpath("//button[normalize-space()='Apply']")).click();
+				Thread.sleep(3000);
+				driver.findElement(By.xpath("//button[normalize-space()='Create']")).click();
+				Thread.sleep(3000);
+				driver.findElement(By.xpath("//i[@class='fa fa-check-circle-o']")).click();
+				Thread.sleep(3000);
+				driver.switchTo().alert().accept();
+				Thread.sleep(3000);
+			
 			driver.close();
 		  }
     	
