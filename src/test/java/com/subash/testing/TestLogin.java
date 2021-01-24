@@ -36,9 +36,9 @@ public static WebDriver driver = null;
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			Thread.sleep(3000);
 			
-			driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("sanjip.thapa@f1soft.com");
+			driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("");
 			Thread.sleep(3000);
-			driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("Test@123");
+			driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("");
 			Thread.sleep(2000);
 			driver.findElement(By.xpath("//button[normalize-space()='Login']")).click();
 			
